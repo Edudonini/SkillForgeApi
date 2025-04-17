@@ -9,3 +9,4 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Domain\obj\Debug\net8.0\SkillFor
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Domain\obj\Debug\net8.0\refint\SkillForge.Domain.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Domain\obj\Debug\net8.0\SkillForge.Domain.pdb
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Domain\obj\Debug\net8.0\ref\SkillForge.Domain.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Domain\obj\Debug\net8.0\SkillForge.Domain.sourcelink.json

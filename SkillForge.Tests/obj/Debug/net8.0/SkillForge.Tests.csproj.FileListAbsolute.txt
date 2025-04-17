@@ -100,3 +100,4 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\refint\Sk
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.pdb
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.genruntimeconfig.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\ref\SkillForge.Tests.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.sourcelink.json
