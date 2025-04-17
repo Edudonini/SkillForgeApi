@@ -9,6 +9,7 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Azure.Core.
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -44,6 +45,8 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.O
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -156,6 +159,7 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\SkillForge.
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\SkillForge.Api.csproj.CoreCompileInputs.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\SkillForge.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\SkillForge.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\SkillForge.Api.sourcelink.json
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\obj\Debug\net8.0\staticwebassets\msbuild.SkillForge.Api.Microsoft.AspNetCore.StaticWebAssets.props

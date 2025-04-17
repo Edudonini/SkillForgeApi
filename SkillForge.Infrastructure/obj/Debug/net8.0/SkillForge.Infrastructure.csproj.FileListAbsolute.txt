@@ -9,6 +9,7 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.AssemblyInfoInputs.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.AssemblyInfo.cs
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.sourcelink.json
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillFor.3AF4E2AA.Up2Date
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\refint\SkillForge.Infrastructure.dll

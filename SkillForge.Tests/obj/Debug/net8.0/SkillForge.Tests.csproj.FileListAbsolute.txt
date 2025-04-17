@@ -94,10 +94,10 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForg
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.AssemblyInfoInputs.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.AssemblyInfo.cs
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.csproj.CoreCompileInputs.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.sourcelink.json
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillFor.77386DE4.Up2Date
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\refint\SkillForge.Tests.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.pdb
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.genruntimeconfig.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\ref\SkillForge.Tests.dll
-C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.sourcelink.json
