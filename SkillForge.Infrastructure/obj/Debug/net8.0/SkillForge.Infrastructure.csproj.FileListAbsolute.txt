@@ -1,0 +1,17 @@
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Infrastructure.deps.json
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Infrastructure.runtimeconfig.json
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Infrastructure.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Infrastructure.pdb
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Domain.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\bin\Debug\net8.0\SkillForge.Domain.pdb
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.csproj.AssemblyReference.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.AssemblyInfoInputs.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.AssemblyInfo.cs
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillFor.3AF4E2AA.Up2Date
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\refint\SkillForge.Infrastructure.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.pdb
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\SkillForge.Infrastructure.genruntimeconfig.cache
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Infrastructure\obj\Debug\net8.0\ref\SkillForge.Infrastructure.dll
