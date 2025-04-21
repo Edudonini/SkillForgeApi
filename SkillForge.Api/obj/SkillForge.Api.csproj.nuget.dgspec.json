@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.Api\\SkillForge.Api.csproj": {}
+    "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.APi\\SkillForge.Api.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.Api\\SkillForge.Api.csproj": {
+    "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.APi\\SkillForge.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.Api\\SkillForge.Api.csproj",
+        "projectUniqueName": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.APi\\SkillForge.Api.csproj",
         "projectName": "SkillForge.Api",
-        "projectPath": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.Api\\SkillForge.Api.csproj",
+        "projectPath": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.APi\\SkillForge.Api.csproj",
         "packagesPath": "C:\\Users\\eduardod\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.Api\\obj\\",
+        "outputPath": "C:\\Workspace\\Portfolio\\SkillForgeApi\\SkillForge.APi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduardod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",

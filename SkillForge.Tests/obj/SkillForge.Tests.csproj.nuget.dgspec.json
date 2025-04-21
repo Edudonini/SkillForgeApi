@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[8.8.0, )"

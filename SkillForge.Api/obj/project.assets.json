@@ -864,6 +864,56 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.5",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/8.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.5",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.5",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -3631,6 +3681,59 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.5": {
+      "sha512": "VWIW6ZHBvwFTnuqoXwLLCdF0TTW2PlUanZHfNKNAuTr1Jw5d5UOZMjaMGC6iUNB+SnYiMGz6g2bhgpKtJb1bZQ==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "microsoft.extensions.diagnostics.healthchecks.8.0.5.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.5": {
+      "sha512": "l+SAiGhkBB5D69IppZFyBs1vyf+50ktRQcV+NSDuYtrAgwmNjKVm2s8qb3RqOT/4pymJjI3UmZ96d8F1FamI4Q==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.5.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/8.0.5": {
+      "sha512": "v/4uB7XDnoB5IDk5Cuvrwy1PuWXdk07Dm3Dxyd8V24g8CQWSgaS3/g9QFW6T1BUmlQ78jnOhPDYzGvzlTGuiKw==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.xml",
+        "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.8.0.5.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.nuspec"
+      ]
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
@@ -5488,6 +5591,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.4",
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore >= 8.0.5",
       "Microsoft.IdentityModel.Tokens >= 8.8.0",
       "Serilog.AspNetCore >= 8.0.0",
       "Serilog.Sinks.Console >= 6.0.0",
@@ -5563,6 +5667,10 @@
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.4, )"
+          },
+          "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.5, )"
           },
           "Microsoft.IdentityModel.Tokens": {
             "target": "Package",

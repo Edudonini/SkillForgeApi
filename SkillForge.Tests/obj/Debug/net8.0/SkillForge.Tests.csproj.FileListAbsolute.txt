@@ -479,3 +479,6 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\refint\Sk
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.pdb
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\SkillForge.Tests.genruntimeconfig.cache
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\obj\Debug\net8.0\ref\SkillForge.Tests.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Tests\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll

@@ -144,8 +144,8 @@
           "Microsoft.Extensions.Configuration.Xml": "8.0.0.0",
           "Microsoft.Extensions.Diagnostics.Abstractions.Reference": "8.0.0.0",
           "Microsoft.Extensions.Diagnostics.Reference": "8.0.0.0",
-          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.0.0",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.Reference": "8.0.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Reference": "8.0.0.0",
           "Microsoft.Extensions.Features": "8.0.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions.Reference": "8.0.0.0",
           "Microsoft.Extensions.FileProviders.Composite": "8.0.0.0",
@@ -809,6 +809,44 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
           "Microsoft.Extensions.Options": "9.0.4",
           "System.Diagnostics.DiagnosticSource": "9.0.4"
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.5",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.524.22404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.524.22404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/8.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.5",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.5.0",
+            "fileVersion": "8.0.524.22404"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
@@ -2563,6 +2601,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "8.0.5",
           "Microsoft.IdentityModel.Tokens": "8.8.0",
           "Serilog.AspNetCore": "8.0.0",
           "Serilog.Sinks.Console": "6.0.0",
@@ -3203,13 +3242,13 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0.0": {
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.Reference/8.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0.0": {
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Reference/8.0.0.0": {
         "compile": {
           "Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
         },
@@ -4610,6 +4649,27 @@
       "sha512": "sha512-JHYCQG7HmugNYUhOl368g+NMxYE/N/AiclCYRNlgCY9eVyiBkOHMwK4x60RYMxv9EL3+rmj1mqHvdCiPpC+D4Q==",
       "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWIW6ZHBvwFTnuqoXwLLCdF0TTW2PlUanZHfNKNAuTr1Jw5d5UOZMjaMGC6iUNB+SnYiMGz6g2bhgpKtJb1bZQ==",
+      "path": "microsoft.extensions.diagnostics.healthchecks/8.0.5",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.8.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l+SAiGhkBB5D69IppZFyBs1vyf+50ktRQcV+NSDuYtrAgwmNjKVm2s8qb3RqOT/4pymJjI3UmZ96d8F1FamI4Q==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.5",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v/4uB7XDnoB5IDk5Cuvrwy1PuWXdk07Dm3Dxyd8V24g8CQWSgaS3/g9QFW6T1BUmlQ78jnOhPDYzGvzlTGuiKw==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/8.0.5",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.8.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "type": "package",
@@ -6150,12 +6210,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0.0": {
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0.0": {
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

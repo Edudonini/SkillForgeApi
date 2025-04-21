@@ -10,7 +10,7 @@ using SkillForge.Infrastructure;
 using SkillForge.Infrastructure.Extensions;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.EntityFrameworkCore.InMemory;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 
 // ───────────────────────────────────────────────────────────── builder
@@ -22,9 +22,35 @@ builder.Host.UseSerilog((ctx, cfg) =>
        .Enrich.FromLogContext()
        .WriteTo.Console());
 
+//Cors simples
+builder.Services.AddCors(opt =>
+    opt.AddPolicy("Open", p => p.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
+
+//Heath Checks
+builder.Services.AddHealthChecks()
+                .AddDbContextCheck<AppDbContext>("SqlServer");      
+
 // Serviços
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//Swagger com botão "Authorize" para JWT
+builder.Services.AddSwaggerGen(o =>
+{
+    o.SwaggerDoc("v1", new() { Title = "SkillForge API", Version = "v1" });
+    var jwtScheme = new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        In   = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Reference = new() { Id = "Bearer", Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme }
+    };
+    o.AddSecurityDefinition("Bearer", jwtScheme);
+    o.AddSecurityRequirement(new()
+    {
+        [jwtScheme] = new[] { "Bearer" }
+    });
+});
 builder.Services.AddSingleton<IRefreshTokenService, RefreshTokenService>();
 
 
@@ -80,6 +106,10 @@ app.UseSerilogRequestLogging();
 app.UseSwagger(); app.UseSwaggerUI();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("Open");
+
+// Health endpoint
+app.MapHealthChecks("/healthz");
 
 app.MapGet("/", () => Results.Redirect("/swagger"));
 
@@ -134,6 +164,7 @@ devGroup.MapDelete("/{id:int}", async (int id, AppDbContext db) =>
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
+
 
 app.Run();
 
