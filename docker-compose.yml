@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=<---MSSQL_SA_PASSWORD--->
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  api:
+    build: .
+    command: [ "dotnet", "SkillForge.Api.dll", "--migrate" ]
+    environment:
+      - ConnectionStrings__Default=Server=sqlserver,1433;Database=SkillForge;User Id=sa;Password=<---MSSQL_SA_PASSWORD--->;TrustServerCertificate=True
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sqlserver
+      
+
+volumes:
+  sql_data:

@@ -8,6 +8,10 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\SkillForge.
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -21,6 +25,7 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.D
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -29,6 +34,8 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.E
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -46,7 +53,14 @@ C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.S
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Workspace\Portfolio\SkillForgeApi\SkillForge.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

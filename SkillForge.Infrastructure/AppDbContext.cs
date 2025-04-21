@@ -2,10 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SkillForge.Domain.Entities;
 using SkillForge.Domain.ValueObjects;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace SkillForge.Infrastructure;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<IdentityUser>
 {
     public DbSet<Developer> Developers => Set<Developer>();
     public DbSet<Skill> Skills => Set<Skill>();
@@ -15,6 +18,8 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder b)
     {
+        base.OnModelCreating(b);
+
         var emailConverter = new ValueConverter<Email, string>(
             v => v.ToString(),
             v => Email.Create(v));
