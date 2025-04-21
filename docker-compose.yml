@@ -1,26 +1,22 @@
 version: "3.9"
-
 services:
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=<---MSSQL_SA_PASSWORD--->
-    ports:
-      - "1433:1433"
-    volumes:
-      - sql_data:/var/opt/mssql
-
   api:
-    build: .
-    command: [ "dotnet", "SkillForge.Api.dll", "--migrate" ]
+    build:
+      context: .
+      command: [ "dotnet", "SkillForge.Api.dll", "--migrate" ]
+      dockerfile: SkillForge.Api/Dockerfile
     environment:
-      - ConnectionStrings__Default=Server=sqlserver,1433;Database=SkillForge;User Id=sa;Password=<---MSSQL_SA_PASSWORD--->;TrustServerCertificate=True
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__Default=Server=db,1433;Database=SkillForge;User Id=sa;Password=Your_password123;
     ports:
       - "8080:8080"
     depends_on:
-      - sqlserver
-      
+      - db
 
-volumes:
-  sql_data:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Your_password123
+    ports:
+      - "1433:1433"
